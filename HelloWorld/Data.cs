@@ -51,6 +51,7 @@ public class Data
             string answer = Console.ReadLine();
             if (answer == "1")
             {
+                Console.Clear();
                 _total += _milkPrice;
                 Console.WriteLine("Your total is now $" + _total);
                 _cartList.Add(_milk);
@@ -58,54 +59,63 @@ public class Data
             
             else if (answer == "3")
             {
+                Console.Clear();
                 _total += _waterPrice;
                 Console.WriteLine("Your total is now $" + _total);
                 _cartList.Add(_water);
             }
             else if (answer == "5")
             {
+                Console.Clear();
                 _total += _breadPrice;
                 Console.WriteLine("Your total is now $" + _total);
                 _cartList.Add(_bread);
             }
             else if (answer == "7")
             {
+                Console.Clear();
                 _total += _candyPrice;
                 Console.WriteLine("Your total is now $" + _total);
                 _cartList.Add(_candy);
             }
             else if (answer == "9")
             {
+                Console.Clear();
                 _total += _juicePrice;
                 Console.WriteLine("Your total is now $" + _total);
                 _cartList.Add(_juice);
             }
             else if (answer == "2")
             {
+                Console.Clear();
                 _total -= _milkPrice;
                 Console.WriteLine("Your total is now $" + _total);
                 _cartList.Remove(_milk);
             }
              else if (answer == "4")
             {
+                Console.Clear();
                 _total -= _waterPrice;
                 Console.WriteLine("Your total is now $" + _total);
                 _cartList.Remove(_water);
             }
              else if (answer == "6")
             {
+                Console.Clear();
                 _total -= _breadPrice;
                 Console.WriteLine("Your total is now $" + _total);
                 _cartList.Remove(_bread);
             }
              else if (answer == "8")
             {
+                Console.Clear();
                 _total -= _candyPrice;
                 Console.WriteLine("Your total is now $" + _total);
                 _cartList.Remove(_candy);
             }
              else if (answer == "10")
             {
+                Console.Clear();
                 _total -= _juicePrice;
                 Console.WriteLine("Your total is now $" + _total);
                 _cartList.Remove(_juice);
@@ -123,6 +133,7 @@ public class Data
             }
             else if (answer == "12")
             {
+                Console.Clear();
                 repeat = false;
                 Console.WriteLine("Thank you for shopping, have a nice day!");
             }
