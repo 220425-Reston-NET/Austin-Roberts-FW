@@ -1,4 +1,5 @@
-﻿// // See https://aka.ms/new-console-template for more information
+﻿using Day4;
+// // See https://aka.ms/new-console-template for more information
 // Console.Clear(); //Will clear console
 // Console.WriteLine("Hello, World!");
 
@@ -50,12 +51,14 @@
 //         repeat = false;
 //     }
 // }
+
+
 Data dataObj = new Data();
 dataObj.DataMain();
 
 // Collections collectObj = new Collections();
 // collectObj.CollectionMain();
-
+//Data2.DataMain();
 
 // Conversions.ConversionsMain();
 
